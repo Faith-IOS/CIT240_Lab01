@@ -2,20 +2,20 @@
 ## Laboratory Activity 1: Open Source Project Information Viewer
 
 ### Project Overview
-This repository contains a simple PHP and HTML web application developed for **CIT 240 – Open Source Programming (Laboratory Activity 1)**. The program displays structured metadata about an open-source project hosted on GitHub: **The Linux Kernel**, created by **Linus Torvalds**.
+This repository contains a simple web application developed for **CIT 240 – Open Source Programming (Laboratory Activity 1)**. The program displays structured metadata about an open-source project hosted on GitHub that is built using **HTML, CSS, and JavaScript**: **Bootstrap**, created by **Mark Otto & Jacob Thornton**.
 
 ---
 
 ### Key Features
 - **Simple HTML/PHP Interface**: Clean card layout styled with CSS.
 - **Comprehensive Project Details**:
-  - Project Name: **Linux Kernel**
-  - Developer / Author: **Linus Torvalds & Community**
-  - Programming Languages: **C, Assembly, Rust**
-  - Open-Source License: **GNU General Public License v2.0 (GPL-2.0)**
-  - Project Description: Monolithic Unix-like operating system kernel.
-  - Official Repository URL: [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
-  - Latest Version & Platform Support: **v6.10 / v6.11-rc**
+  - Project Name: **Bootstrap**
+  - Developer / Author: **Mark Otto, Jacob Thornton & Bootstrap Core Team**
+  - Programming Languages: **HTML, CSS, JavaScript**
+  - Open-Source License: **MIT License**
+  - Project Description: Open-source front-end toolkit for building responsive web apps.
+  - Official Repository URL: [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+  - Latest Version & Platform Support: **v5.3.3 (Stable)**
 - **Git Version Control Integration**: Step-by-step repository tracking and incremental commit history.
 
 ---
@@ -24,11 +24,11 @@ This repository contains a simple PHP and HTML web application developed for **C
 
 | Field | Details |
 | :--- | :--- |
-| **Project Title** | Linux Kernel |
-| **Developer / Author** | Linus Torvalds & Linux Kernel Development Community |
-| **Programming Language** | C, Assembly, Rust |
-| **Open-Source License** | GNU General Public License v2.0 (GPL-2.0) |
-| **Official Repository** | [https://github.com/torvalds/linux](https://github.com/torvalds/linux) |
+| **Project Title** | Bootstrap |
+| **Developer / Author** | Mark Otto, Jacob Thornton & Bootstrap Core Team |
+| **Programming Language** | HTML, CSS, JavaScript |
+| **Open-Source License** | MIT License |
+| **Official Repository** | [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap) |
 
 ---
 

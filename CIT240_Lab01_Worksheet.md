@@ -43,16 +43,16 @@
 // CIT 240 - Open Source Programming
 // Laboratory Activity 1: Open Source Project Information Viewer
 
-$projectName = "Linux Kernel";
-$developer = "Linus Torvalds & Linux Kernel Development Community";
-$language = "C, Assembly, Rust";
-$license = "GNU General Public License v2.0 (GPL-2.0)";
-$description = "The Linux Kernel is an open-source, monolithic, Unix-like operating system kernel created by Linus Torvalds that powers servers, Android devices, cloud infrastructure, and supercomputers globally.";
+$projectName = "Bootstrap";
+$developer = "Mark Otto, Jacob Thornton & Bootstrap Core Team";
+$language = "HTML, CSS, JavaScript";
+$license = "MIT License";
+$description = "Bootstrap is a world-renowned, open-source front-end framework for building responsive, mobile-first web applications using HTML, CSS, and JavaScript.";
 
 // Additional project information (Step 8)
-$repositoryUrl = "https://github.com/torvalds/linux";
-$latestVersion = "v6.10 / v6.11-rc (Stable)";
-$supportedPlatforms = "x86_64, ARM64, RISC-V, PowerPC, MIPS";
+$repositoryUrl = "https://github.com/twbs/bootstrap";
+$latestVersion = "v5.3.3 (Stable)";
+$supportedPlatforms = "All Modern Web Browsers (Chrome, Firefox, Safari, Edge)";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +97,7 @@ $supportedPlatforms = "x86_64, ARM64, RISC-V, PowerPC, MIPS";
 | Requirement | Status | Details |
 | :--- | :--- | :--- |
 | **Project Folder Created** | Completed | `CIT240_Lab01` |
-| **Featured Open Source Project** | Completed | **Linux Kernel** by Linus Torvalds (`github.com/torvalds/linux`) |
+| **Featured Open Source Project** | Completed | **Bootstrap** (written in HTML, CSS, JavaScript) (`github.com/twbs/bootstrap`) |
 | **PHP/HTML Program Created** | Completed | `project_info.php` & `index.html` |
 | **Git Repository Initialized & Pushed** | Completed | `Faith-IOS/CIT240_Lab01` on GitHub |
 | **Worksheet Completed** | Completed | `CIT240_Lab01_Worksheet.md` |

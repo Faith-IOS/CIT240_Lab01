@@ -7,6 +7,11 @@ $developer = "Guido van Rossum & Python Software Foundation (PSF)";
 $language = "C, Python";
 $license = "Python Software Foundation License (PSFL)";
 $description = "Python is an open-source, high-level, interpreted programming language emphasizing code readability, simplicity, and extensibility across web development, data science, and automation.";
+
+// Additional project information (Step 8)
+$repositoryUrl = "https://github.com/python/cpython";
+$latestVersion = "3.12.5 (Stable) / 3.13.0 (Pre-release)";
+$supportedPlatforms = "Cross-platform (Windows, macOS, Linux/UNIX)";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +33,7 @@ $description = "Python is an open-source, high-level, interpreted programming la
             background: #ffffff;
             border-radius: 8px;
             padding: 30px;
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
@@ -48,6 +53,18 @@ $description = "Python is an open-source, high-level, interpreted programming la
             color: #2c3e50;
             width: 180px;
             display: inline-block;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .divider {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 15px 0;
         }
         .footer {
             margin-top: 25px;
@@ -87,6 +104,24 @@ $description = "Python is an open-source, high-level, interpreted programming la
         <div class="info-row">
             <span class="label">Project Description:</span>
             <span><?php echo $description; ?></span>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Additional Project Information (Step 8) -->
+        <div class="info-row">
+            <span class="label">Repository URL:</span>
+            <span><a href="<?php echo $repositoryUrl; ?>" target="_blank"><?php echo $repositoryUrl; ?></a></span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Latest Version:</span>
+            <span><?php echo $latestVersion; ?></span>
+        </div>
+
+        <div class="info-row">
+            <span class="label">Supported Platforms:</span>
+            <span><?php echo $supportedPlatforms; ?></span>
         </div>
 
         <div class="footer">

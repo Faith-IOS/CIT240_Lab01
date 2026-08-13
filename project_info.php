@@ -2,16 +2,16 @@
 // CIT 240 - Open Source Programming
 // Laboratory Activity 1: Open Source Project Information Viewer
 
-$projectName = "Python Programming Language";
-$developer = "Guido van Rossum & Python Software Foundation (PSF)";
-$language = "C, Python";
-$license = "Python Software Foundation License (PSFL)";
-$description = "Python is an open-source, high-level, interpreted programming language emphasizing code readability, simplicity, and extensibility across web development, data science, and automation.";
+$projectName = "Linux Kernel";
+$developer = "Linus Torvalds & Linux Kernel Development Community";
+$language = "C, Assembly, Rust";
+$license = "GNU General Public License v2.0 (GPL-2.0)";
+$description = "The Linux Kernel is an open-source, monolithic, Unix-like operating system kernel created by Linus Torvalds that powers servers, Android devices, cloud infrastructure, and supercomputers globally.";
 
 // Additional project information (Step 8)
-$repositoryUrl = "https://github.com/python/cpython";
-$latestVersion = "3.12.5 (Stable) / 3.13.0 (Pre-release)";
-$supportedPlatforms = "Cross-platform (Windows, macOS, Linux/UNIX)";
+$repositoryUrl = "https://github.com/torvalds/linux";
+$latestVersion = "v6.10 / v6.11-rc (Stable)";
+$supportedPlatforms = "x86_64, ARM64, RISC-V, PowerPC, MIPS";
 ?>
 <!DOCTYPE html>
 <html lang="en">
